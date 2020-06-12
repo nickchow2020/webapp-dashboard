@@ -1,0 +1,55 @@
+// color variables 
+$primaryColor        : tomato;
+$secoundaryColor     : darken(tomato,40%);
+$primarytextColor    :white;
+$secoundarytextColor :darken(white,15%);
+$thirdtextColor      :darken(white,70%);
+$lightgrey           :#F1F2F3;
+$bordergrey          :#C7CCD1;
+$navChartbg          :#3174ED;
+$bellCircle          :#57EF52;
+
+// image path
+$icon-path: "../icons";
+$img-path: "../images";
+
+// add font face
+@font-face{
+    font-family: "kenyan-bd";
+    src: url("../fonts/kenyan_coffee_bd.ttf");
+}
+@font-face{
+    font-family: "kenyan-rg";
+    src: url("../fonts/kenyan_coffee_rg.ttf");
+}
+@font-face{
+    font-family: "moranke";
+    src: url("../fonts/moranke.ttf");
+}
+@font-face{
+    font-family: "kenyan-rgnit";
+    src: url("../fonts/kenyan_coffee.ttf");
+}
+@font-face{
+    font-family: "messageFont";
+    src: url("../fonts/massenetSemiBold-Bold.otf");
+}
+// base element style
+h1,h2{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:$thirdtextColor;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    padding:0;
+    margin: 0;
+    li{
+        list-style-type: none;
+    }
+}

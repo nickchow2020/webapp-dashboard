@@ -1,0 +1,22 @@
+.alert{
+    width: 96%;
+    margin: .8rem auto;
+    background: tomato;
+    font-family: "kenyan-rgnit";
+    color: $primarytextColor;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    padding: .5rem 1rem;
+    strong{
+        font-family: "kenyan-rg";
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }   
+    a{
+        color:$primarytextColor ;
+    }
+}
